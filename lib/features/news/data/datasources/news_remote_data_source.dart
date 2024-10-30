@@ -5,7 +5,7 @@ import 'package:news_app_real/features/news/data/models/news_model.dart';
 
 class NewsRemoteDataSource {
   final http.Client client;
-  final String apiKey = '97ea719de5d1491190d7a34f53545a3d';
+  final String apiKey = '';
   NewsRemoteDataSource(this.client);
 
   Future<List<NewsModel>> getTopHeadlines() async {
